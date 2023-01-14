@@ -9,22 +9,25 @@ function scrollFunction() {
         buttonTop.style.display = "none"
     }
 }
+
 /* Función que envia el scroll hacia arriba. */
 function backToTop() {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
 }
-/* Escucha la etiqueta de cada elemento. */
-new bootstrap.ScrollSpy(document.body, {
-    target: '#navbarNav'
-})
+
 /* Función de inicialización de la pagina. */
 function init () {
     scrollFunction()
 }
 
-let buttonTop = document.getElementById("btn-back-to-top");
+/* Creación de componentes globales. */
+let buttonTop = document.getElementById("btn-back-to-top")
+
+/* Función de deslizamiento de ventana. */
 window.onscroll = function () {
     init()
-};
-buttonTop.addEventListener("click", backToTop);
+}
+
+/* Agregación del evento de botón scroll */
+buttonTop.addEventListener("click", backToTop)
