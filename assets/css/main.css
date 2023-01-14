@@ -1,35 +1,19 @@
-/*Agregado william*/
-.ancho{
-    max-width: 1200px;
-     margin: auto;
-}
-.Speaker{
-    /* border: 2px solid red; */
-    width: 100%;
-}
-/*Fin Agregado william*/
-
-.init-image {
-    background-image: url("../img/background.jpg");
-    height: calc(100% - 70px);
-    margin-top: 70px;
+.max-image {
+    width: auto !important;
+    max-height: 200px !important;
+    margin: auto auto;
 }
 
-.section-will {
-    background-color: #F1F3F7;
+.inactive {
+    padding: 15px;
+    transition: all ease-in-out 0.5s;
 }
 
-.card-hover {
-    height: 100%;
+.inactive:hover {
+    transform: scale(1.05);
 }
 
-.card-hover:hover {
-    scale: 1.06;
-    transition: ease all 0.5s;
-}
-
-@media (min-width: 992px) {
-    .left-badge {
-        text-align: start !important;
-    }
+.inactive a {
+    background-color: #198754;
+    border: none;
 }

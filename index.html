@@ -10,9 +10,11 @@
     <link rel="icon" type="image/png" href="/favicon.png"/>
 
     <link rel="stylesheet" href="/assets/css/header.css"/>
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/footer.css"/>
     <link rel="stylesheet" href="/assets/css/settings.css">
     <link rel="stylesheet" href="/assets/css/bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" href="/assets/css/progress-waves/progress-waves.css" />
     <script type="text/javascript" src="/assets/js/jquery/jquery-3.6.3.min.js"></script>
     <script type="text/javascript" src="/assets/js/boostrap/popper.js"></script>
     <script type="text/javascript" src="/assets/js/boostrap/bootstrap.js"></script>
@@ -20,8 +22,10 @@
 </head>
 <body class="d-flex h-100 text-center">
 <div class="d-flex w-100 h-100 mx-auto flex-column">
+    <div class="in-progress"></div>
+
     <div include="/assets/component/navbar.html"></div>
-    <div style="margin-top: 86px"></div>
+    <div style="margin-top: 86px" include="/assets/component/main.html"></div>
     <div include="/assets/component/footer.html"></div>
 
     <button type="button" id="btn-back-to-top" class="btn btn-success btn-floating btn-lg">
@@ -31,6 +35,7 @@
     <script src="/assets/js/boostrap/carousel.js"></script>
     <script src="/assets/js/scrolltop.js"></script>
     <script src="/assets/js/module.js"></script>
+    <script src="/assets/js/settings.js"></script>
 </div>
 </body>
 </html>
