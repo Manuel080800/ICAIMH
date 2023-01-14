@@ -17,7 +17,7 @@ function backToTop() {
 }
 
 /* Función de inicialización de la pagina. */
-function init () {
+function run () {
     scrollFunction()
 }
 
@@ -26,7 +26,7 @@ let buttonTop = document.getElementById("btn-back-to-top")
 
 /* Función de deslizamiento de ventana. */
 window.onscroll = function () {
-    init()
+    run()
 }
 
 /* Agregación del evento de botón scroll */
