@@ -130,18 +130,18 @@
         margin: auto;
     }
     #slider1 .overview li:hover {
-        height: 400px;
+        /* height: 400px; */
         box-shadow: none;
      }
  }
  @media screen and (max-width:480px){
     #slider1 .overview li img{
-        width: 50%;
+        width: 120px;
         height: 120px;
      }
     #slider1 .overview li{
         width: 250PX;
-       height: 350px;
+        /* height: 350px; */
      }
      #slider1 .viewport {
         overflow: hidden;
@@ -156,7 +156,7 @@
         width: 250px;
      }
      #slider1 .overview li:hover {
-        height: 350px;
+        /*height: 350px;*/
         box-shadow: none;
      }
      
