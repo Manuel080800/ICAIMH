@@ -1,5 +1,5 @@
 /* Tiny Carousel */
-#slider1 {
+.slider1 {
     max-width: 1180px;
     margin: auto;
     height: 1%;
@@ -11,7 +11,7 @@
     
 }
 
-#slider1 .viewport {
+.slider1 .viewport {
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -19,7 +19,7 @@
     height: 400px;
 }
 
-#slider1 .prev{
+.slider1 .prev{
     color: #1B8C3C;
     display: block;
     position: absolute;
@@ -33,7 +33,7 @@
     font-size: 32px;
 }
 
-#slider1 .next{
+.slider1 .next{
     color: #1B8C3C;
     border-radius: 35px;
     display: block;
@@ -51,15 +51,15 @@
     font-size: 32px;
 }
 
-#slider1 .buttons:hover {
+.slider1 .buttons:hover {
     color:black;
 }
 
-#slider1 .disable {
+.slider1 .disable {
     visibility: hidden;
 }
 
-#slider1 .overview {
+.slider1 .overview {
     list-style: none;
     position: absolute;
     padding: 0;
@@ -69,11 +69,11 @@
     top: 0;
 }
 
-#slider1 .overview ul {
+.slider1 .overview ul {
     padding: 5px;
 }
 
-#slider1 .overview li {
+.slider1 .overview li {
     overflow: hidden;
     float: left;
     margin: 0 20px 0 0;
@@ -84,7 +84,7 @@
     border-radius: 20px;
     transition: .5s;
  }
- #slider1 .overview li img{
+ .slider1 .overview li img{
     margin-top: 10px;
     margin-bottom: 10px;
     width: 180px;
@@ -107,21 +107,21 @@
     color: black;
  }
 
- #slider1 .overview li:hover {
+ .slider1 .overview li:hover {
     /* height: 390px; */
     box-shadow: 0px 0px 10px rgb(175, 175, 175);
  }
  
 
  @media screen and (max-width:913px){
-    #slider1 .overview li img{
+    .slider1 .overview li img{
         width: 180px;
      }
-     #slider1 .overview li{
+     .slider1 .overview li{
         width: 400PX;
         /* height: 400px;*/
      }
-     #slider1 .viewport {
+     .slider1 .viewport {
         overflow: hidden;
         position: relative;
         /*  border: 1px solid black;
@@ -129,21 +129,21 @@
         width: 402px;
         margin: auto;
     }
-    #slider1 .overview li:hover {
+    .slider1 .overview li:hover {
         /* height: 400px; */
         box-shadow: none;
      }
  }
  @media screen and (max-width:480px){
-    #slider1 .overview li img{
+    .slider1 .overview li img{
         width: 120px;
         height: 120px;
      }
-    #slider1 .overview li{
+    .slider1 .overview li{
         width: 250PX;
         /* height: 350px; */
      }
-     #slider1 .viewport {
+     .slider1 .viewport {
         overflow: hidden;
         position: relative;
         /* border: 1px solid black; */
@@ -155,7 +155,7 @@
         /* border: 2px solid red; */
         width: 250px;
      }
-     #slider1 .overview li:hover {
+     .slider1 .overview li:hover {
         /*height: 350px;*/
         box-shadow: none;
      }
